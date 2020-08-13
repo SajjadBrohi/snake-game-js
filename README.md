@@ -1,22 +1,26 @@
-# Snake Game JavaScript
+# Snake Game TypeScript
 
-The Snake Xenzia game created in JavaScript. 
+The Snake Xenzia game created in TypeScript. 
 
-![Picture of game](https://i.imgur.com/FqZbK3y.png)
+<img src="https://i.imgur.com/FqZbK3y.png" height="50%" width="50%">
 
 ## How to play
 
-Game is published at:
+1. Clone the repository
 
-https://sajjadbrohi.github.io/snake-game-js/
+2. Install the project dependencies using
+```
+npm i
+```
+3. Compile TypeScript to JavaScript using the tsc command in the terminal
+```
+tsc
+```
+
 
 ## Uses
 
-1. Vanilla JavaScript (ES6+)
-
-2. HTML5
-
-3. CSS3
+TypeScript
 
 ## Credit
 
