@@ -6,16 +6,17 @@ The Snake Xenzia game created in TypeScript.
 
 ## How to play
 
-1. Clone the repository
+1. Checkout the project and CD into it
 
-2. Install the project dependencies using
+2. Install the project dependencies
 ```
 npm i
 ```
-3. Compile TypeScript to JavaScript using the tsc command in the terminal
+3. Compile TypeScript to JavaScript using the tsc command
 ```
 tsc
 ```
+4. Open index.html in your preferred browser to get the game running
 
 
 ## Uses
