@@ -1,11 +1,8 @@
 {
-	"compileOnSave": true,
 	"compilerOptions": {
+		"lib": ["dom", "es2017"],
+		"outDir": "./dist",
 		"target": "esnext",
-		// Flavor of JS that our code will be compiled to, 'esnext' means that TS will compile targetting the latest ES of JS
-		"watch": true,
-		// Will recompile the code each time we save the file. Won't have to run 'tsc file' everytime now
-		"lib": ["dom", "es2017"]
-		// Allows us to automatically include typings for certain environments such as the DOM or ES2017. So, if making a web app, this will allow the library to use DOM class without any of the compilation erros.
+		"watch": true
 	}
 }

@@ -1,0 +1,22 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Snake Xenzia game in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SajjadBrohi/snake-game-js.git"
+  },
+  "author": "Sajjad Brohi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SajjadBrohi/snake-game-js/issues"
+  },
+  "homepage": "https://github.com/SajjadBrohi/snake-game-js#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
