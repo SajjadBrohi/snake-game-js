@@ -13,11 +13,14 @@ const person = {
 function names(first, second) {
     return first + second;
 }
+const tryer = (first, second) => {
+    return first + second;
+};
+console.log(tryer('saj', 'b'));
 names('sajjad ', 'brohi');
 // Note that 'Person' is an interface with the types of the properties declared
 const arr = [];
 arr.push(person);
-arr.push(3); //Error
 const myList = []; //If we don't put question mark when declaring the type above we will have to initialise the array here
 myList.push(3);
 myList.push(3);

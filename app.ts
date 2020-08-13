@@ -27,13 +27,18 @@ function names(first: string, second: string): string {
 	return first + second;
 }
 
+const tryer = (first: string, second: string): string => {
+	return first + second;
+};
+
+console.log(tryer('saj', 'b'));
+
 names('sajjad ', 'brohi');
 
 // Note that 'Person' is an interface with the types of the properties declared
 const arr: Person[] = [];
 
 arr.push(person);
-arr.push(3); //Error
 
 type MyList = [number?, string?, boolean?];
 
